@@ -14,7 +14,7 @@ public class JwtUtils {
 	
 	private static final String CLAVE_SECRETA = "arrozconpolloarrozconpolloarrozconpolloarrozconpolloarrozconpollo";
 	private static final String EMISOR = "KrakeDevBackend";
-	private static final long TIEMPO_EXPIRACION = 30000000;
+	private static final long TIEMPO_EXPIRACION = 1800000;
 	
 	public static String generarToken(String username, String rol) {
 		
